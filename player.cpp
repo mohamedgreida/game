@@ -11,8 +11,8 @@ Player::Player () {
 }
 void Player::keyPressEvent (QKeyEvent* event) {
 	int speed = 10;
-	if (event->key()==Qt::Key_Shift)
-		speed = 100;
+	if (event->modifiers()==Qt::ShiftModifier)
+		speed = 50;
 
 
 	if (event->key()==Qt::Key_Left) moveBy(-speed,0);
