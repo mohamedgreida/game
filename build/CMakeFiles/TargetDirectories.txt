@@ -1,0 +1,3 @@
+/home/mohamed/game2/build/CMakeFiles/app.dir
+/home/mohamed/game2/build/CMakeFiles/edit_cache.dir
+/home/mohamed/game2/build/CMakeFiles/rebuild_cache.dir
